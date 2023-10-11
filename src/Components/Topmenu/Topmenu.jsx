@@ -9,10 +9,8 @@ const MenuOption = styled.a`
 `;
 const NavigationMenu = styled.ul`
   display: flex;
-  justify-content: space-between;
+  gap: 7rem;
 
-  max-width: 40%;
-  margin-left: auto;
   padding-top: 3rem;
   padding-right: 5rem;
 
