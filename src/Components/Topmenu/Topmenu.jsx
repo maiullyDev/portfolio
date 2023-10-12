@@ -1,28 +1,25 @@
-import styled from "styled-components";
+import {
+  NavList,
+  MenuOption,
+  MobileContent,
+  BurgerMenuOptions,
+  HamburguerMenu,
+  StyledHiMenu,
+} from "./styles";
 
-const MenuOption = styled.a`
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  text-decoration: none;
-  color: #ffffff;
-`;
-const NavigationMenu = styled.ul`
-  display: flex;
-  gap: 7rem;
-
-  padding-top: 3rem;
-  padding-right: 5rem;
-
-  list-style: none;
-`;
+import React, { useState } from "react";
 
 export function Topmenu() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <>
       <header>
         <nav>
-          <NavigationMenu>
+          <NavList>
             <li>
               <MenuOption href="">Home</MenuOption>
             </li>
@@ -35,7 +32,26 @@ export function Topmenu() {
             <li>
               <MenuOption href="">Contato</MenuOption>
             </li>
-          </NavigationMenu>
+          </NavList>
+          <MobileContent>
+            <HamburguerMenu onClick={toggleMenu}>
+              <StyledHiMenu />
+            </HamburguerMenu>
+            <BurgerMenuOptions isOpen={menuOpen}>
+              <li>
+                <MenuOption href="">Home</MenuOption>
+              </li>
+              <li>
+                <MenuOption href="">Sobre mim</MenuOption>
+              </li>
+              <li>
+                <MenuOption href="">Projetos</MenuOption>
+              </li>
+              <li>
+                <MenuOption href="">Contato</MenuOption>
+              </li>
+            </BurgerMenuOptions>
+          </MobileContent>
         </nav>
       </header>
     </>
