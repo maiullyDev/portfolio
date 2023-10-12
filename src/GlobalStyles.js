@@ -19,7 +19,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body {
-        background: var(--fundo);
+        background-color: var(--fundo);
     }
 
 `;
