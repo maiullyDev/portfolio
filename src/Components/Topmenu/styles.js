@@ -21,6 +21,16 @@ export const MenuOption = styled.a`
   font-weight: 500;
   text-decoration: none;
   color: #ffffff;
+
+  transition: border-bottom 0.15s;
+  padding-bottom: 5px;
+
+  @media (min-width: 1300px) {
+    &:hover {
+      border-bottom: 1px solid #ffffff;
+      transition: border-bottom 0.15s;
+    }
+  }
 `;
 
 export const MobileContent = styled.div`
