@@ -167,8 +167,8 @@ export const ButtonCurriculum = styled.button`
 `;
 
 export const BlurEffect = styled.div`
-  width: 62.5rem;
-  height: 62.5rem;
+  width: 50rem;
+  height: 50rem;
   background: radial-gradient(
     62.52% 62.52% at 44% 40.5%,
     rgba(41, 84, 163, 0.8) 0%,
