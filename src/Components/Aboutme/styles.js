@@ -57,7 +57,7 @@ export const AboutMeContent = styled.div`
   max-width: 56rem;
 
   border-radius: 30px;
-  border: 3px solid #bf61db;
+  border: 3px solid var(--lilac-1);
 
   background: rgba(0, 0, 0, 0.5);
 

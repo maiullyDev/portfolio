@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SectionBanner = styled.section`
   position: relative;
-  background-color: #0f103f;
+  background-color: var(--fundo);
   height: 100vh;
 `;
 
@@ -121,7 +121,7 @@ export const CallToAction = styled.div`
 `;
 
 export const PresentationText = styled.h1`
-  color: #fff;
+  color: var(--branco);
   font-family: "Poppins", sans-serif;
   font-size: 4rem;
   font-weight: 700;
@@ -149,7 +149,7 @@ export const PresentationText = styled.h1`
 `;
 
 export const ButtonCurriculum = styled.button`
-  color: #fff;
+  color: var(--branco);
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -160,7 +160,11 @@ export const ButtonCurriculum = styled.button`
   padding: 0.5rem;
   border-radius: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.6);
-  background: linear-gradient(107deg, #c961de 24.43%, #2954a3 68.95%);
+  background: linear-gradient(
+    107deg,
+    var(--lilac-1) 24.43%,
+    var(--blue-1) 68.95%
+  );
   box-shadow: 0px 10px 20px 0px rgba(8, 12, 33, 0.15);
 
   z-index: 1;

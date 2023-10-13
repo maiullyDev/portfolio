@@ -20,14 +20,14 @@ export const MenuOption = styled.a`
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
-  color: #ffffff;
+  color: var(--branco);
 
   transition: border-bottom 0.15s;
   padding-bottom: 5px;
 
   @media (min-width: 1300px) {
     &:hover {
-      border-bottom: 1px solid #ffffff;
+      border-bottom: 1px solid var(--branco);
       transition: border-bottom 0.15s;
     }
   }
@@ -66,9 +66,9 @@ export const BurgerMenuOptions = styled.ul`
 
   padding: 1rem 1rem;
 
-  background: #0f103f;
+  background: var(--fundo);
   border: 1.5px solid transparent;
-  border-image: linear-gradient(to right, #c962de, #2a55a3);
+  border-image: linear-gradient(to right, var(--lilac-1), var(--blue-1));
   border-image-slice: 1;
   border-radius: 20px;
 
