@@ -24,6 +24,9 @@ export function Topmenu() {
               <MenuOption href="">Home</MenuOption>
             </li>
             <li>
+              <MenuOption href="">Hard Skills</MenuOption>
+            </li>
+            <li>
               <MenuOption href="">Sobre mim</MenuOption>
             </li>
             <li>
@@ -40,6 +43,9 @@ export function Topmenu() {
             <BurgerMenuOptions isOpen={menuOpen}>
               <li>
                 <MenuOption href="">Home</MenuOption>
+              </li>
+              <li>
+                <MenuOption href="">Hard Skills</MenuOption>
               </li>
               <li>
                 <MenuOption href="">Sobre mim</MenuOption>
