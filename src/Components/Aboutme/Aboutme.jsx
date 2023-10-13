@@ -21,7 +21,7 @@ export function Aboutme() {
           <TextParagraph>
             Eu sou uma mulher que se identifica como parda, que é nordestina,
             que busca contribuir para que o mundo seja um lugar melhor e que tem
-            o coração aberto para melhorar a cada dia.{" "}
+            a mente aberta para melhorar a cada dia.{" "}
           </TextParagraph>
           <TextParagraph>
             Pode não parecer, mas já passei por situações muito difíceis na
