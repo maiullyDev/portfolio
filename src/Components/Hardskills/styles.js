@@ -6,10 +6,26 @@ export const SectionContainer = styled.section`
   align-items: center;
 
   margin: 15rem auto;
+
+  @media (max-width: 1250px) {
+    margin: 10rem auto;
+  }
+  @media (max-width: 1100px) {
+    margin: 8rem auto;
+  }
+  @media (max-width: 1000px) {
+    margin: 8rem auto 6rem auto;
+  }
+  @media (max-width: 540px) {
+    margin: 8rem auto 4rem auto;
+  }
+  @media (max-width: 450px) {
+    margin: 8rem auto 1rem auto;
+  }
 `;
 
 export const Skills = styled.div`
-  border: 2px solid #c962df;
+  border: 3px solid #c962df;
   border-radius: 30px;
 
   padding: 3rem 3rem;
@@ -18,6 +34,65 @@ export const Skills = styled.div`
   position: relative;
 
   margin-bottom: 6rem;
+
+  @media (max-width: 1380px) {
+    max-width: 75rem;
+  }
+  @media (max-width: 1350px) {
+    max-width: 70rem;
+  }
+  @media (max-width: 1250px) {
+    max-width: 65rem;
+    margin-bottom: 5rem;
+  }
+  @media (max-width: 1200px) {
+    max-width: 60rem;
+    margin-bottom: 4rem;
+  }
+  @media (max-width: 1100px) {
+    max-width: 56rem;
+  }
+  @media (max-width: 1000px) {
+    max-width: 50rem;
+    margin-bottom: 3rem;
+  }
+  @media (max-width: 900px) {
+    max-width: 45rem;
+  }
+  @media (max-width: 830px) {
+    max-width: 43rem;
+  }
+  @media (max-width: 800px) {
+    max-width: 40rem;
+  }
+  @media (max-width: 730px) {
+    max-width: 38rem;
+  }
+  @media (max-width: 690px) {
+    max-width: 35rem;
+  }
+  @media (max-width: 620px) {
+    max-width: 32rem;
+  }
+  @media (max-width: 570px) {
+    max-width: 30rem;
+  }
+  @media (max-width: 540px) {
+    max-width: 28rem;
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 500px) {
+    max-width: 27rem;
+  }
+  @media (max-width: 480px) {
+    max-width: 25rem;
+  }
+  @media (max-width: 450px) {
+    max-width: 23rem;
+  }
+  @media (max-width: 420px) {
+    max-width: 21rem;
+  }
 `;
 
 export const LinkToStudyNotebook = styled.a`
@@ -36,6 +111,16 @@ export const LinkToStudyNotebook = styled.a`
     border-bottom: 1px solid #fff;
     transition: border-bottom 0.15s;
   }
+
+  @media (max-width: 570px) {
+    max-width: 60%;
+  }
+  @media (max-width: 620px) {
+    max-width: 50%;
+  }
+  @media (max-width: 540px) {
+    font-size: 12px;
+  }
 `;
 
 export const Title = styled.h2`
@@ -50,18 +135,34 @@ export const Title = styled.h2`
 
   position: absolute;
   top: -24px;
+
+  @media (max-width: 540px) {
+    font-size: 20px;
+    top: -16px;
+  }
+  @media (max-width: 480px) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 `;
 
 export const SkillBlockContent = styled.div`
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
 
   gap: 4rem;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
 `;
 
 export const Illustration = styled.img`
   height: 12rem;
+
+  @media (max-width: 540px) {
+    height: 10rem;
+  }
 `;
 
 export const SkillsContainer = styled.div`
@@ -69,6 +170,10 @@ export const SkillsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
+
+  @media (max-width: 800px) {
+    justify-content: center;
+  }
 `;
 
 export const Skill = styled.div`

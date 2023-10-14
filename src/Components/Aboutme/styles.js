@@ -20,8 +20,14 @@ export const AboutMeContainer = styled.section`
   @media (max-width: 1300px) {
     background-size: 98%;
   }
+  @media (max-width: 1350px) {
+    margin-top: 100px;
+  }
   @media (max-width: 1200px) {
     background: none;
+  }
+  @media (max-width: 800px) {
+    margin-top: 50px;
   }
 `;
 
