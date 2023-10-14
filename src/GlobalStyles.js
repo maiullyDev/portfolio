@@ -10,6 +10,7 @@ export const GlobalStyles = createGlobalStyle`
     :root {
         --preto: #000000;
         --branco: #ffffff;
+        --cinza: #70708C;
         --fundo: #0f103f;
         --fundo-footer: #1c1c65;
         --purple-1: #2f2f8a;
