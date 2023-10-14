@@ -27,51 +27,51 @@ export function Hardskills() {
           <Illustration src={illustrationMyVersion} alt="" />
           <SkillsContainer>
             <Skill>
-              <FaHtml5 color="#fff" />
+              <FaHtml5 color="#fff" size={15} />
               <p>HTML</p>
             </Skill>
             <Skill>
-              <FaCss3Alt color="#fff" />
+              <FaCss3Alt color="#fff" size={15} />
               <p>CSS</p>
             </Skill>
             <Skill>
-              <IoLogoJavascript color="#fff" />
+              <IoLogoJavascript color="#fff" size={13} />
               <p>JavaScript</p>
             </Skill>
             <Skill>
-              <TbBrandReactNative color="#fff" />
+              <TbBrandReactNative color="#fff" size={15} />
               <p>React</p>
             </Skill>
             <Skill>
-              <BsGit color="#fff" />
+              <BsGit color="#fff" size={14} />
               <p>Git</p>
             </Skill>
             <Skill>
-              <BsGithub color="#fff" />
+              <BsGithub color="#fff" size={14} />
               <p>GitHub</p>
             </Skill>
             <Skill>
-              <IoPersonCircleOutline color="#fff" />
+              <IoPersonCircleOutline color="#fff" size={16} />
               <p>UI / UX</p>
             </Skill>
             <Skill>
-              <TbBrandFigma color="#fff" />
+              <TbBrandFigma color="#fff" size={15} />
               <p>Figma</p>
             </Skill>
             <Skill>
-              <TbBrandSass color="#fff" />
+              <TbBrandSass color="#fff" size={16} />
               <p>Sass</p>
             </Skill>
             <Skill>
-              <SiStyledcomponents color="#fff" />
+              <SiStyledcomponents color="#fff" size={24} />
               <p>Styled Components</p>
             </Skill>
             <Skill>
-              <SiGimp color="#fff" />
+              <SiGimp color="#fff" size={16} />
               <p>Gimp</p>
             </Skill>
             <Skill>
-              <SiInkscape color="#fff" />
+              <SiInkscape color="#fff" size={13} />
               <p>Inkscape</p>
             </Skill>
           </SkillsContainer>
