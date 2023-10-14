@@ -101,22 +101,22 @@ export const CallToAction = styled.div`
     max-width: 28rem;
     padding-left: 8%;
 
-    top: 150px;
+    top: 100px;
   }
   @media (max-width: 490px) {
-    top: 100px;
+    top: 80px;
   }
   @media (max-width: 450px) {
     max-width: 22rem;
     padding-left: 8%;
 
-    top: 170px;
+    top: 100px;
   }
   @media (max-width: 410px) {
     max-width: 20rem;
     padding-left: 8%;
 
-    top: 170px;
+    top: 120px;
   }
 `;
 
