@@ -76,6 +76,8 @@ export const Skills = styled.div`
   }
   @media (max-width: 570px) {
     max-width: 30rem;
+    width: 100%;
+    padding: 3rem 0rem;
   }
   @media (max-width: 540px) {
     max-width: 28rem;
@@ -136,6 +138,11 @@ export const Title = styled.h2`
   position: absolute;
   top: -24px;
 
+  @media (max-width: 570px) {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    left: 30px;
+  }
   @media (max-width: 540px) {
     font-size: 20px;
     top: -16px;
@@ -174,6 +181,11 @@ export const SkillsContainer = styled.div`
   @media (max-width: 800px) {
     justify-content: center;
   }
+  @media (max-width: 570px) {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 80%;
+  }
 `;
 
 export const Skill = styled.div`
@@ -184,11 +196,18 @@ export const Skill = styled.div`
 
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 10px;
 
   padding: 0.5rem 2rem 0.5rem 1rem;
   background-color: rgba(47, 47, 138, 0.6);
   border-radius: 6px;
 
   max-height: 2.5rem;
+
+  @media (max-width: 570px) {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+  }
+  @media (max-width: 540px) {
+    font-size: 12px;
+  }
 `;
