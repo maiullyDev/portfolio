@@ -9,15 +9,51 @@ export const ContactContainer = styled.section`
   border-radius: 30px;
 
   margin: 0 auto;
+
+  @media (max-width: 1050px) {
+    max-width: 54rem;
+  }
+  @media (max-width: 975px) {
+    max-width: 33rem;
+    padding: 53px 60px;
+    flex-direction: column;
+    gap: 5.5rem;
+  }
+  @media (max-width: 570px) {
+    max-width: 30rem;
+    padding: 50px 60px 40px 60px;
+  }
+  @media (max-width: 540px) {
+    max-width: 28rem;
+  }
+  @media (max-width: 500px) {
+    max-width: 26rem;
+    padding: 50px 40px 40px 40px;
+    gap: 4rem;
+  }
+  @media (max-width: 480px) {
+    max-width: 24rem;
+  }
+  @media (max-width: 450px) {
+    max-width: 23rem;
+  }
+  @media (max-width: 420px) {
+    max-width: 21rem;
+  }
 `;
 
 export const LeftBlock = styled.div`
   color: var(--branco);
   font-family: "Poppins", sans-serif;
+
+  float: left;
 `;
 
 export const LeftBlockTitle = styled.h2`
   margin-bottom: 1rem;
+  @media (max-width: 540px) {
+    font-size: 20px;
+  }
 `;
 
 export const LeftBlockText = styled.p`
@@ -41,6 +77,10 @@ export const RightBlock = styled.div`
 export const RightBlockTitle = styled.h3`
   margin-bottom: 1.2rem;
   font-size: 24px;
+
+  @media (max-width: 540px) {
+    font-size: 20px;
+  }
 `;
 
 export const ContactForm = styled.form`
@@ -64,6 +104,10 @@ export const FormField = styled.input`
     font-size: 16px;
     font-weight: 400;
   }
+
+  @media (max-width: 975px) {
+    width: 100%;
+  }
 `;
 
 export const FormFieldTextArea = styled.textarea`
@@ -82,6 +126,9 @@ export const FormFieldTextArea = styled.textarea`
     font-size: 16px;
     font-weight: 400;
   }
+  @media (max-width: 975px) {
+    width: 100%;
+  }
 `;
 
 export const ContactFormButton = styled.button`
@@ -98,4 +145,10 @@ export const ContactFormButton = styled.button`
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 400;
+
+  @media (max-width: 975px) {
+    margin: 0 auto;
+    width: 200px;
+    margin-top: 1.5rem;
+  }
 `;
