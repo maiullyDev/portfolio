@@ -1,15 +1,70 @@
 import styled from "styled-components";
 
+export const Illustration = styled.img`
+  position: absolute;
+  bottom: 445px;
+  left: 85%;
+
+  @media (max-width: 1250px) {
+    height: 350px;
+    bottom: 488px;
+    left: 87%;
+  }
+  @media (max-width: 1150px) {
+    left: 85%;
+  }
+  @media (max-width: 1050px) {
+    bottom: 488px;
+    left: 86%;
+  }
+  @media (max-width: 975px) {
+    bottom: 876px;
+    left: 80%;
+  }
+  @media (max-width: 790px) {
+    height: 250px;
+    bottom: 910px;
+    left: 75%;
+  }
+  @media (max-width: 570px) {
+    bottom: 894px;
+  }
+  @media (max-width: 540px) {
+    bottom: 906px;
+  }
+  @media (max-width: 500px) {
+    bottom: 882px;
+    left: 72%;
+  }
+  @media (max-width: 480px) {
+    bottom: 906px;
+    left: 70%;
+  }
+  @media (max-width: 450px) {
+    bottom: 906px;
+    left: 67%;
+  }
+  @media (max-width: 420px) {
+    bottom: 930px;
+    left: 65%;
+  }
+`;
+
 export const ContactContainer = styled.section`
   display: flex;
   gap: 7.5rem;
   max-width: 56rem;
-  padding: 53px 90px 53px 91px;
+  padding: 53px 90px;
   background: rgba(47, 47, 138, 0.6);
   border-radius: 30px;
 
-  margin: 0 auto;
+  margin: 500px auto;
 
+  position: relative;
+
+  @media (max-width: 1250px) {
+    margin: 440px auto;
+  }
   @media (max-width: 1050px) {
     max-width: 54rem;
   }
@@ -18,6 +73,9 @@ export const ContactContainer = styled.section`
     padding: 53px 60px;
     flex-direction: column;
     gap: 5.5rem;
+  }
+  @media (max-width: 790px) {
+    margin: 350px auto;
   }
   @media (max-width: 570px) {
     max-width: 30rem;
@@ -45,8 +103,6 @@ export const ContactContainer = styled.section`
 export const LeftBlock = styled.div`
   color: var(--branco);
   font-family: "Poppins", sans-serif;
-
-  float: left;
 `;
 
 export const LeftBlockTitle = styled.h2`
