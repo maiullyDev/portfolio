@@ -1,7 +1,9 @@
 import { BsLinkedin } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import IllustrationMyVersion from "../../assets/MyVersionComputer.svg";
 import {
   ContactContainer,
+  Illustration,
   LeftBlock,
   LeftBlockTitle,
   LeftBlockText,
@@ -17,6 +19,7 @@ import {
 export function Contact() {
   return (
     <ContactContainer>
+      <Illustration src={IllustrationMyVersion} alt="" />
       <LeftBlock>
         <LeftBlockTitle>Entrar em contato</LeftBlockTitle>
         <LeftBlockText>
@@ -29,7 +32,7 @@ export function Contact() {
           <BsLinkedin color="#fff" size={18} />
           <p>LinkedIn</p>
         </SocialMedia>
-        <SocialMedia>
+        <SocialMedia style={{ marginLeft: "-2px" }}>
           <MdEmail color="#fff" size={21} />
           <p>maiully.dev@gmail.com</p>
         </SocialMedia>
