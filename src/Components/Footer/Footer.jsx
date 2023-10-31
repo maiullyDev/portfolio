@@ -58,17 +58,23 @@ export function Footer() {
         </li>
       </FooterMenu>
       <SocialMedia>
-        <a href="">
+        <a
+          href="https://www.linkedin.com/in/maiully-desenvolvedorweb/"
+          target="_blank"
+        >
           <Icon>
             <FaLinkedinIn color="#fff" size={22} />
           </Icon>
         </a>
-        <a href="">
+        <a href="https://github.com/maiullyDev" target="_blank">
           <Icon>
             <TbBrandGithubFilled color="#fff" size={22} />
           </Icon>
         </a>
-        <a href="">
+        <a
+          href="https://www.youtube.com/channel/UClsISarBf85-ow8KM0d_joA"
+          target="_blank"
+        >
           <Icon>
             <IoLogoYoutube color="#fff" size={22} />
           </Icon>
