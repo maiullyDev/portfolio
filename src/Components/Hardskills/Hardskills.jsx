@@ -77,7 +77,10 @@ export function Hardskills() {
           </SkillsContainer>
         </SkillBlockContent>
       </Skills>
-      <LinkToStudyNotebook href="https://crystal-haumea-eb9.notion.site/Full-stack-4b034e95b05346a7a9a1bb569deef26a?pvs=4">
+      <LinkToStudyNotebook
+        href="https://crystal-haumea-eb9.notion.site/Full-stack-4b034e95b05346a7a9a1bb569deef26a?pvs=4"
+        target="_blank"
+      >
         Tenha acesso ao meu caderno de estudos clicando aqui
       </LinkToStudyNotebook>
     </SectionContainer>
