@@ -132,7 +132,7 @@ export const Picture = styled.img`
 `;
 
 export const TextTitle = styled.h2`
-  color: var(--branco);
+  color: var(--white);
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 30px;
@@ -163,7 +163,7 @@ export const BodyOfText = styled.div`
 `;
 
 export const TextParagraph = styled.p`
-  color: var(--branco);
+  color: var(--white);
   font-family: Poppins;
   font-size: 20px;
   font-weight: 500;

@@ -100,7 +100,7 @@ export const Skills = styled.div`
 export const LinkToStudyNotebook = styled.a`
   text-decoration: none;
 
-  color: var(--branco);
+  color: var(--white);
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -126,12 +126,12 @@ export const LinkToStudyNotebook = styled.a`
 `;
 
 export const Title = styled.h2`
-  color: var(--branco);
+  color: var(--white);
   font-family: "Poppins", sans-serif;
   font-size: 30px;
   font-weight: 700;
 
-  background-color: var(--fundo);
+  background-color: var(--backgroud);
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 

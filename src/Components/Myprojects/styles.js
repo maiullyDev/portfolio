@@ -13,7 +13,7 @@ export const MyProjectsContainer = styled.section`
 `;
 
 export const TitleSection = styled.div`
-  color: var(--branco);
+  color: var(--white);
   font-family: "Poppins", sans-serif;
   font-size: 30px;
   font-weight: 700;
@@ -87,7 +87,7 @@ export const ProjectContainer = styled.div`
 export const TitleProject = styled.p`
   text-align: center;
 
-  color: var(--branco);
+  color: var(--white);
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 700;

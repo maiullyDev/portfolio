@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SectionBanner = styled.section`
   position: relative;
-  background-color: var(--fundo);
+  background-color: var(--backgroud);
   height: 100vh;
 `;
 
@@ -121,7 +121,7 @@ export const CallToAction = styled.div`
 `;
 
 export const PresentationText = styled.h1`
-  color: var(--branco);
+  color: var(--white);
   font-family: "Poppins", sans-serif;
   font-size: 4rem;
   font-weight: 700;
@@ -149,7 +149,7 @@ export const PresentationText = styled.h1`
 `;
 
 export const ButtonCurriculum = styled.button`
-  color: var(--branco);
+  color: var(--white);
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 16px;

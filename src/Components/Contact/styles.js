@@ -101,7 +101,7 @@ export const ContactContainer = styled.section`
 `;
 
 export const LeftBlock = styled.div`
-  color: var(--branco);
+  color: var(--white);
   font-family: "Poppins", sans-serif;
 `;
 
@@ -126,7 +126,7 @@ export const SocialMedia = styled.div`
 `;
 
 export const RightBlock = styled.div`
-  color: var(--branco);
+  color: var(--white);
   font-family: "Poppins", sans-serif;
 `;
 
@@ -154,7 +154,7 @@ export const FormField = styled.input`
   padding: 0.8rem 1.2rem;
   width: 21rem;
 
-  color: var(--branco);
+  color: var(--white);
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 400;

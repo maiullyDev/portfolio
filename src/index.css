@@ -5,10 +5,10 @@
 }
 
 :root {
-  --preto: #000000;
-  --branco: #ffffff;
-  --fundo: #0f103f;
-  --fundo-footer: #1c1c65;
+  --black: #000000;
+  --white: #ffffff;
+  --backgroud: #0f103f;
+  --backgroud-footer: #1c1c65;
   --purple-1: #2f2f8a;
   --lilac-1: #c961de;
   --blue-1: #2954a3;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.section`
-  background-color: var(--fundo-footer);
+  background-color: var(--backgroud-footer);
   padding-top: 8rem;
   padding-bottom: 2rem;
 
@@ -100,7 +100,7 @@ export const MenuOption = styled.a`
   align-items: center;
 
   text-decoration: none;
-  color: var(--branco);
+  color: var(--white);
   font-family: "Poppins", sans-serif;
   font-size: 17px;
   font-weight: 400;

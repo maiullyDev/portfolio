@@ -9,11 +9,11 @@ export const GlobalStyles = createGlobalStyle`
 
     :root {
         --text-muted: #D0D0D0;
-        --preto: #000000;
-        --branco: #ffffff;
-        --cinza: #70708C;
-        --fundo: #0f103f;
-        --fundo-footer: #1c1c65;
+        --black: #000000;
+        --white: #ffffff;
+        --gray: #70708C;
+        --backgroud: #0f103f;
+        --backgroud-footer: #1c1c65;
         --purple-1: #2f2f8a;
         --lilac-1: #c961de;
         --blue-1: #2954a3;
@@ -21,7 +21,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body {
-        background-color: var(--fundo);
+        background-color: var(--backgroud);
     }
 
 `;
