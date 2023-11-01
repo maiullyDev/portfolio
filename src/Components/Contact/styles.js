@@ -181,6 +181,11 @@ export const FormFieldTextArea = styled.textarea`
   width: 21rem;
   height: 200px;
 
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
   &::placeholder {
     color: var(--text-muted);
     font-family: "Poppins", sans-serif;
