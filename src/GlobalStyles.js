@@ -8,6 +8,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     :root {
+        --text-muted: #D0D0D0;
         --preto: #000000;
         --branco: #ffffff;
         --cinza: #70708C;
