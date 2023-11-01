@@ -25,7 +25,12 @@ export function Banner() {
           <PresentationText>
             Olá! Eu me chamo Maiully, mas também sou conhecida por Mai!
           </PresentationText>
-          <ButtonCurriculum>Baixar Currículo</ButtonCurriculum>
+          <a
+            href="https://drive.google.com/file/d/1Gt5JETEKH0QI2eaugCx5Gdb0J_wGfeRK/view?usp=sharing"
+            target="_blank"
+          >
+            <ButtonCurriculum>Baixar Currículo</ButtonCurriculum>
+          </a>
           <BlurEffect></BlurEffect>
         </CallToAction>
       </SectionBanner>

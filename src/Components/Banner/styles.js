@@ -167,7 +167,12 @@ export const ButtonCurriculum = styled.button`
   );
   box-shadow: 0px 10px 20px 0px rgba(8, 12, 33, 0.15);
 
+  position: relative;
   z-index: 1;
+
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 export const BlurEffect = styled.div`
