@@ -45,8 +45,10 @@ export const ProjectsContainer = styled.div`
 
 export const ProjectContainer = styled.div`
   width: 22rem;
-  height: 17rem;
-  background-color: rgba(255, 255, 255, 0.4);
+  height: 16.3rem;
+  background-image: url("/assets/site.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
   border-radius: 1.5rem;
 
   display: flex;
@@ -70,27 +72,15 @@ export const ProjectContainer = styled.div`
   }
   @media (max-width: 1150px) {
     width: 18rem;
-    height: 13rem;
+    height: 14rem;
   }
   @media (max-width: 1050px) {
     width: 17rem;
-    height: 12rem;
+    height: 13.3rem;
   }
   @media (max-width: 975px) {
     width: 15rem;
-    height: 10rem;
-  }
-`;
-
-export const WebsiteImage = styled.img`
-  height: 60%;
-  margin-top: 30px;
-
-  @media (max-width: 1300px) {
-    height: 55%;
-  }
-  @media (max-width: 975px) {
-    margin-top: 20px;
+    height: 11.3rem;
   }
 `;
 
