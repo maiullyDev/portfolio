@@ -154,8 +154,13 @@ export const FormField = styled.input`
   padding: 0.8rem 1.2rem;
   width: 21rem;
 
+  color: var(--branco);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
   &::placeholder {
-    color: var(--branco);
+    color: var(--text-muted);
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -177,7 +182,7 @@ export const FormFieldTextArea = styled.textarea`
   height: 200px;
 
   &::placeholder {
-    color: var(--branco);
+    color: var(--text-muted);
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
