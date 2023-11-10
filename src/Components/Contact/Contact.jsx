@@ -1,3 +1,5 @@
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
 import { BsLinkedin } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import IllustrationMyVersion from "../../assets/MyVersionComputer.svg";
@@ -17,6 +19,44 @@ import {
 } from "./styles";
 
 export function Contact() {
+  const [nome, setNome] = useState("");
+  const [email, setEmail] = useState("");
+  const [mensagem, setMensagem] = useState("");
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    if (nome === "" || email === "" || mensagem === "") {
+      alert("Por favor, preencha todos os campos.");
+      return;
+    }
+
+    const templateParams = {
+      from_name: nome,
+      email: email,
+      message: mensagem,
+    };
+
+    emailjs
+      .send(
+        "service_2uh7jba",
+        "template_w4plbme",
+        templateParams,
+        "f5tTPX4znb1DrQjcW"
+      )
+      .then(
+        (response) => {
+          console.log("email enviado", response.status, response.text);
+          setNome("");
+          setEmail("");
+          setMensagem("");
+        },
+        (error) => {
+          console.log("Erro: ", error);
+        }
+      );
+  }
+
   return (
     <ContactContainer>
       <Illustration src={IllustrationMyVersion} alt="" />
@@ -39,16 +79,25 @@ export function Contact() {
       </LeftBlock>
       <RightBlock>
         <RightBlockTitle>Mande uma mensagem</RightBlockTitle>
-        <ContactForm>
-          <FormField type="text" placeholder="Nome" />
-          <FormField type="email" placeholder="E-mail" />
-          <FormField type="text" placeholder="Assunto" />
+        <ContactForm onSubmit={sendEmail}>
+          <FormField
+            type="text"
+            placeholder="Nome"
+            onChange={(e) => setNome(e.target.value)}
+            value={nome}
+          />
+          <FormField
+            type="email"
+            placeholder="E-mail"
+            onChange={(e) => setEmail(e.target.value)}
+            value={email}
+          />
           <FormFieldTextArea
-            name=""
-            id=""
             cols="30"
             rows="10"
             placeholder="Sua mensagem"
+            onChange={(e) => setMensagem(e.target.value)}
+            value={mensagem}
           ></FormFieldTextArea>
           <ContactFormButton>Enviar mensagem</ContactFormButton>
         </ContactForm>
