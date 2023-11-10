@@ -2,50 +2,50 @@ import styled from "styled-components";
 
 export const Illustration = styled.img`
   position: absolute;
-  bottom: 445px;
+  bottom: 400px;
   left: 85%;
 
   @media (max-width: 1250px) {
     height: 350px;
-    bottom: 488px;
+    bottom: 443px;
     left: 87%;
   }
   @media (max-width: 1150px) {
     left: 85%;
   }
   @media (max-width: 1050px) {
-    bottom: 488px;
+    bottom: 443px;
     left: 86%;
   }
   @media (max-width: 975px) {
-    bottom: 876px;
+    bottom: 831px;
     left: 80%;
   }
   @media (max-width: 790px) {
     height: 250px;
-    bottom: 910px;
+    bottom: 865px;
     left: 75%;
   }
   @media (max-width: 570px) {
-    bottom: 894px;
+    bottom: 849px;
   }
   @media (max-width: 540px) {
-    bottom: 906px;
+    bottom: 861px;
   }
   @media (max-width: 500px) {
-    bottom: 882px;
+    bottom: 837px;
     left: 72%;
   }
   @media (max-width: 480px) {
-    bottom: 906px;
+    bottom: 861px;
     left: 70%;
   }
   @media (max-width: 450px) {
-    bottom: 906px;
+    bottom: 861px;
     left: 67%;
   }
   @media (max-width: 420px) {
-    bottom: 930px;
+    bottom: 885px;
     left: 65%;
   }
 `;
@@ -113,7 +113,7 @@ export const LeftBlockTitle = styled.h2`
 `;
 
 export const LeftBlockText = styled.p`
-  margin-bottom: 3.5rem;
+  margin-bottom: 2.6rem;
 `;
 
 export const SocialMedia = styled.div`
