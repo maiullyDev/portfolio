@@ -10,6 +10,7 @@ import {
   LeftBlockTitle,
   LeftBlockText,
   SocialMedia,
+  Linkedin,
   RightBlock,
   RightBlockTitle,
   ContactForm,
@@ -69,8 +70,10 @@ export function Contact() {
           contato.
         </LeftBlockText>
         <SocialMedia>
-          <BsLinkedin color="#fff" size={18} />
-          <p>LinkedIn</p>
+          <Linkedin href="https://www.linkedin.com/in/maiully-desenvolvedorweb/">
+            <BsLinkedin color="#fff" size={18} />
+            <p>LinkedIn</p>
+          </Linkedin>
         </SocialMedia>
         <SocialMedia style={{ marginLeft: "-2px" }}>
           <MdEmail color="#fff" size={21} />

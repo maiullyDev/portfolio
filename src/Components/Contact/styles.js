@@ -125,6 +125,20 @@ export const SocialMedia = styled.div`
   font-weight: 400;
 `;
 
+export const Linkedin = styled.a`
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--white);
+
+  cursor: pointer;
+`;
+
 export const RightBlock = styled.div`
   color: var(--white);
   font-family: "Poppins", sans-serif;
@@ -211,6 +225,12 @@ export const ContactFormButton = styled.button`
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 400;
+
+  transition: transform 0.3s ease;
+
+  &:active {
+    transform: scale(0.94);
+  }
 
   @media (max-width: 975px) {
     margin: 0 auto;
