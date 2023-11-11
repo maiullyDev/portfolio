@@ -12,7 +12,8 @@
 
 ## Breve descrição
 
-Site pessoal contendo o meu portfolio.
+Site pessoal contendo o meu portfolio
+
 ![Captura de tela do banner do site](./public/assets/printPortfolio.png)
 
 ## Tecnologias utilizadas na construção do projeto
@@ -38,11 +39,11 @@ Site pessoal contendo o meu portfolio.
 📍 Formulário para envio de mensagens, no qual o usuário pode digitar o seu nome, e-mail, e mensagem.  
 📍 Botões com links para o meu perfil no LinkedIn, para o meu perfil no GitHub, e para o meu canal no YouTube.
 
-![Vídeo apresentando o funcionamento da aplicação](./public/assets/portfolio-gif-1.gif)
+![Vídeo apresentando o funcionamento da aplicação](./public/assets/portfolio-gif.gif)
 
 ### Responsividade:
 
-![Vídeo apresentando a responsividade da aplicação](./public/assets/responsividade-gif.gif)
+![Vídeo apresentando a responsividade da aplicação](./public/assets/portfolio-responsividade.gif)
 
 ## Conceitos explorados no projeto
 
