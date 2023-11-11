@@ -27,9 +27,9 @@ export function Aboutme() {
             Pode não parecer, mas já passei por situações muito difíceis na
             vida, as quais me fizeram buscar na resiliência, na fé e no amor
             forças para levantar a cabeça e seguir em frente. Por isso escolhi o
-            tema universo para este site e o lema ”Ao infinito e além”, é uma
-            forma de dizer para mim e para as pessoas que os obstáculos não irão
-            me deter.
+            tema universo para este site e o lema ”Ao infinito e além” haha, é
+            uma forma de dizer para mim e para as pessoas que os obstáculos não
+            irão encerrar a minha trajetória.
           </TextParagraph>
           <TextParagraph>
             Gosto muito de aprender e estou sempre fazendo novos cursos!
