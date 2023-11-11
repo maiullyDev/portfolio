@@ -44,12 +44,34 @@ export const ProjectsContainer = styled.div`
   }
 `;
 
-export const ProjectContainer = styled.div`
+export const ImgProjectContainer = styled.img`
   width: 22rem;
   height: 16.3rem;
-  background-image: url("/assets/site.jpeg");
-  background-size: contain;
-  background-repeat: no-repeat;
+  border-radius: 1.5rem;
+
+  @media (max-width: 1300px) {
+    width: 20rem;
+    height: 15rem;
+
+    border-radius: 1.3rem;
+  }
+  @media (max-width: 1150px) {
+    width: 18rem;
+    height: 14rem;
+  }
+  @media (max-width: 1050px) {
+    width: 17rem;
+    height: 13.3rem;
+  }
+  @media (max-width: 975px) {
+    width: 15rem;
+    height: 11.3rem;
+  }
+`;
+
+export const ProjectContainer = styled.a`
+  width: 22rem;
+  height: 16.3rem;
   border-radius: 1.5rem;
 
   display: flex;
@@ -94,7 +116,7 @@ export const TitleProject = styled.p`
   font-weight: 700;
 
   width: 22rem;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0rem 0rem 1.5rem 1.5rem;
 
   padding-top: 0.8rem;
