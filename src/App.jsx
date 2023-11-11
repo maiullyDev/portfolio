@@ -6,6 +6,7 @@ import { Contact } from "./Components/Contact/Contact";
 import { Footer } from "./Components/Footer/Footer";
 import { Hardskills } from "./Components/Hardskills/Hardskills";
 import { Myprojects } from "./Components/Myprojects/Myprojects";
+import { ScrollToTopButton } from "./Components/ScrollToTopButton/ScrollToTopButton";
 import { GlobalStyles } from "./GlobalStyles";
 
 export function App() {
@@ -13,6 +14,7 @@ export function App() {
     <>
       <GlobalStyles />
       <Banner />
+      <ScrollToTopButton />
       <Hardskills />
       <Aboutme />
       <Myprojects />
