@@ -17,11 +17,11 @@ export function Topmenu() {
 
   return (
     <>
-      <header>
+      <header id="header">
         <nav>
           <NavList>
             <li>
-              <MenuOption href="">Home</MenuOption>
+              <MenuOption href="#header">Home</MenuOption>
             </li>
             <li>
               <MenuOption href="#hardSkills">Hard Skills</MenuOption>
@@ -42,7 +42,7 @@ export function Topmenu() {
             </HamburguerMenu>
             <BurgerMenuOptions isOpen={menuOpen}>
               <li>
-                <MenuOption href="">Home</MenuOption>
+                <MenuOption href="#header">Home</MenuOption>
               </li>
               <li>
                 <MenuOption href="#hardSkills">Hard Skills</MenuOption>

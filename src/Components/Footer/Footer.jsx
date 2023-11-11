@@ -27,7 +27,7 @@ export function Footer() {
       <IllustrationRight src={illustrationRight} alt="" />
       <FooterMenu>
         <li>
-          <MenuOption href="">
+          <MenuOption href="#header">
             <AiOutlineHome color="#fff" size={18} />
             <p>Home</p>
           </MenuOption>
