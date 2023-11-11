@@ -18,34 +18,34 @@ export const Illustration = styled.img`
     left: 86%;
   }
   @media (max-width: 975px) {
-    bottom: 831px;
+    bottom: 817px;
     left: 80%;
   }
   @media (max-width: 790px) {
     height: 250px;
-    bottom: 865px;
+    bottom: 851px;
     left: 75%;
   }
   @media (max-width: 570px) {
-    bottom: 849px;
+    bottom: 835px;
   }
   @media (max-width: 540px) {
-    bottom: 861px;
+    bottom: 847px;
   }
   @media (max-width: 500px) {
-    bottom: 837px;
+    bottom: 823px;
     left: 72%;
   }
   @media (max-width: 480px) {
-    bottom: 861px;
+    bottom: 847px;
     left: 70%;
   }
   @media (max-width: 450px) {
-    bottom: 861px;
+    bottom: 847px;
     left: 67%;
   }
   @media (max-width: 420px) {
-    bottom: 885px;
+    bottom: 871px;
     left: 65%;
   }
 `;
@@ -67,7 +67,7 @@ export const ContactContainer = styled.section`
   position: relative;
 
   @media (max-width: 1250px) {
-    margin: 440px auto;
+    margin: 0px auto 440px auto;
   }
   @media (max-width: 1050px) {
     max-width: 54rem;
@@ -79,7 +79,7 @@ export const ContactContainer = styled.section`
     gap: 5.5rem;
   }
   @media (max-width: 790px) {
-    margin: 350px auto;
+    margin: 0px auto 350px auto;
   }
   @media (max-width: 570px) {
     max-width: 30rem;
