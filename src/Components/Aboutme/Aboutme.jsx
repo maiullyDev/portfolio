@@ -15,7 +15,7 @@ export function Aboutme() {
     <AboutMeContainer id="aboutMe">
       <BlurEffect />
       <AboutMeContent>
-        <Picture src={myPicture} alt="" />
+        <Picture src={myPicture} alt="Foto de Maiully" />
         <TextTitle>Ao infinito e além!</TextTitle>
         <BodyOfText>
           <TextParagraph>

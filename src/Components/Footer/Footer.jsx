@@ -23,8 +23,11 @@ import illustrationRight from "../../assets/illustration-right-footer.png";
 export function Footer() {
   return (
     <FooterContainer>
-      <IllustrationLeft src={illustrationLeft} alt="" />
-      <IllustrationRight src={illustrationRight} alt="" />
+      <IllustrationLeft src={illustrationLeft} alt="Ilustração de asteroide" />
+      <IllustrationRight
+        src={illustrationRight}
+        alt="Ilustração de planeta com um anel"
+      />
       <FooterMenu>
         <li>
           <MenuOption href="#header">

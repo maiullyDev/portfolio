@@ -24,7 +24,10 @@ export function Hardskills() {
       <Skills>
         <Title>Hard Skills</Title>
         <SkillBlockContent>
-          <Illustration src={illustrationMyVersion} alt="" />
+          <Illustration
+            src={illustrationMyVersion}
+            alt="Desenho de Maiully, uma mulher parda, usando camisa branca e um colar com pingente lilás, com cabelo castanho longo, de braços cruzados e com um leve sorriso."
+          />
           <SkillsContainer>
             <Skill>
               <FaHtml5 color="#fff" size={15} />

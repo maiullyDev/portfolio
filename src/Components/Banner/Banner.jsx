@@ -17,10 +17,13 @@ export function Banner() {
     <>
       <SectionBanner>
         <BannerTop>
-          <IllustrationLeft src={illustrationTop} alt="" />
+          <IllustrationLeft src={illustrationTop} alt="Ilustração de planeta" />
           <Topmenu />
         </BannerTop>
-        <IllustrationRight src={illustrationBottom} alt="" />
+        <IllustrationRight
+          src={illustrationBottom}
+          alt="Ilustração de planeta com luas"
+        />
         <CallToAction>
           <PresentationText>
             Olá! Eu me chamo Maiully, mas também sou conhecida por Mai!

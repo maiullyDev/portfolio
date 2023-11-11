@@ -81,7 +81,10 @@ export function Contact() {
   return (
     <ContactSection id="contact">
       <ContactContainer>
-        <Illustration src={IllustrationMyVersion} alt="" />
+        <Illustration
+          src={IllustrationMyVersion}
+          alt="Desenho de Maiully, uma mulher parda com o cabelo castanho preso, usando uma camisa branca e uma calça jeans, sentada com as pernas cruzadas, apoiando um notebook sobre as pernas, e olhando para a tela do notebook com um leve sorriso."
+        />
         <LeftBlock>
           <LeftBlockTitle>Entrar em contato</LeftBlockTitle>
           <LeftBlockText>

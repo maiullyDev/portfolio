@@ -23,7 +23,7 @@ export function Myprojects() {
         >
           <ImgProjectContainer
             src="https://github.com/maiullyDev/my-finances/raw/main/assets/capturaDeTela.png"
-            alt=""
+            alt="Imagem do projeto"
           />
           <TitleProject>My finances</TitleProject>
         </ProjectContainer>
