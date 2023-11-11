@@ -50,6 +50,10 @@ export const Illustration = styled.img`
   }
 `;
 
+export const ContactSection = styled.div`
+  padding-top: 350px;
+`;
+
 export const ContactContainer = styled.section`
   display: flex;
   gap: 7.5rem;
@@ -58,7 +62,7 @@ export const ContactContainer = styled.section`
   background: rgba(47, 47, 138, 0.6);
   border-radius: 30px;
 
-  margin: 500px auto 250px auto;
+  margin: 0 auto 250px auto;
 
   position: relative;
 
@@ -123,6 +127,9 @@ export const SocialMedia = styled.div`
 
   font-size: 16px;
   font-weight: 400;
+
+  position: relative;
+  z-index: 3;
 `;
 
 export const Linkedin = styled.a`

@@ -86,6 +86,9 @@ export const FooterMenu = styled.div`
   max-width: 53rem;
   margin: 0rem auto 3rem auto;
 
+  position: relative;
+  z-index: 4;
+
   @media (max-width: 680px) {
     flex-wrap: wrap;
     justify-content: center;

@@ -12,6 +12,7 @@ export const AboutMeContainer = styled.section`
 
   position: relative;
 
+  padding-top: 5rem;
   margin-top: 200px;
 
   @media (max-width: 1000px) {

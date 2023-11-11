@@ -20,7 +20,7 @@ import illustrationMyVersion from "../../assets/IllustrationMyVersion.svg";
 
 export function Hardskills() {
   return (
-    <SectionContainer>
+    <SectionContainer id="hardSkills">
       <Skills>
         <Title>Hard Skills</Title>
         <SkillBlockContent>

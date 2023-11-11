@@ -20,8 +20,21 @@ export const GlobalStyles = createGlobalStyle`
         --blue-2: #b5f9fd;
     }
 
+    html {
+        scroll-behavior: smooth;
+    }
+
     body {
         background-color: var(--backgroud);
+    }
+
+    button {
+        cursor: pointer;
+
+        &:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
     }
 
 `;

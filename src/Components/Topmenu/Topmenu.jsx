@@ -24,16 +24,16 @@ export function Topmenu() {
               <MenuOption href="">Home</MenuOption>
             </li>
             <li>
-              <MenuOption href="">Hard Skills</MenuOption>
+              <MenuOption href="#hardSkills">Hard Skills</MenuOption>
             </li>
             <li>
-              <MenuOption href="">Sobre mim</MenuOption>
+              <MenuOption href="#aboutMe">About me</MenuOption>
             </li>
             <li>
-              <MenuOption href="">Projetos</MenuOption>
+              <MenuOption href="#projects">Projects</MenuOption>
             </li>
             <li>
-              <MenuOption href="">Contato</MenuOption>
+              <MenuOption href="#contact">Contact</MenuOption>
             </li>
           </NavList>
           <MobileContent>
@@ -45,16 +45,16 @@ export function Topmenu() {
                 <MenuOption href="">Home</MenuOption>
               </li>
               <li>
-                <MenuOption href="">Hard Skills</MenuOption>
+                <MenuOption href="#hardSkills">Hard Skills</MenuOption>
               </li>
               <li>
-                <MenuOption href="">Sobre mim</MenuOption>
+                <MenuOption href="#aboutMe">About me</MenuOption>
               </li>
               <li>
-                <MenuOption href="">Projetos</MenuOption>
+                <MenuOption href="#projects">Projects</MenuOption>
               </li>
               <li>
-                <MenuOption href="">Contato</MenuOption>
+                <MenuOption href="#contact">Contact</MenuOption>
               </li>
             </BurgerMenuOptions>
           </MobileContent>

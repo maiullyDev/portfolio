@@ -5,6 +5,7 @@ export const SectionContainer = styled.section`
   flex-direction: column;
   align-items: center;
 
+  padding-top: 5rem;
   margin: 15rem auto;
 
   @media (max-width: 1250px) {

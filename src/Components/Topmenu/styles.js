@@ -37,6 +37,7 @@ export const MobileContent = styled.div`
   position: fixed;
   top: 1.5rem;
   right: 1.5rem;
+  z-index: 20;
 
   display: flex;
   flex-direction: column;
@@ -55,9 +56,10 @@ export const StyledHiMenu = styled(HiMenu)`
 `;
 
 export const HamburguerMenu = styled.button`
-  background: transparent;
+  background: var(--backgroud);
   border: none;
   position: relative;
+  z-index: 20;
 `;
 
 export const BurgerMenuOptions = styled.ul`
@@ -70,7 +72,6 @@ export const BurgerMenuOptions = styled.ul`
   border: 1.5px solid transparent;
   border-image: linear-gradient(to right, var(--lilac-1), var(--blue-1));
   border-image-slice: 1;
-  border-radius: 20px;
 
   display: flex;
   flex-direction: column;

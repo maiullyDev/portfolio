@@ -1,3 +1,5 @@
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import { Aboutme } from "./Components/Aboutme/Aboutme";
 import { Banner } from "./Components/Banner/Banner";
 import { Contact } from "./Components/Contact/Contact";
@@ -16,6 +18,7 @@ export function App() {
       <Myprojects />
       <Contact />
       <Footer />
+      <ToastContainer />
     </>
   );
 }

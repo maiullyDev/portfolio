@@ -12,7 +12,7 @@ import {
 
 export function Aboutme() {
   return (
-    <AboutMeContainer>
+    <AboutMeContainer id="aboutMe">
       <BlurEffect />
       <AboutMeContent>
         <Picture src={myPicture} alt="" />

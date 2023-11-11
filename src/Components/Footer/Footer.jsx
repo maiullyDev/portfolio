@@ -33,25 +33,25 @@ export function Footer() {
           </MenuOption>
         </li>
         <li>
-          <MenuOption href="">
+          <MenuOption href="#hardSkills">
             <GiSkills color="#fff" size={18} />
             <p>Hard skills</p>
           </MenuOption>
         </li>
         <li>
-          <MenuOption href="">
+          <MenuOption href="#aboutMe">
             <IoPersonOutline color="#fff" />
             <p>About me</p>
           </MenuOption>
         </li>
         <li>
-          <MenuOption href="">
+          <MenuOption href="#projects">
             <MdWork color="#fff" />
             <p>Projects</p>
           </MenuOption>
         </li>
         <li>
-          <MenuOption href="">
+          <MenuOption href="#contact">
             <AiOutlinePhone color="#fff" size={18} />
             <p>Contact</p>
           </MenuOption>

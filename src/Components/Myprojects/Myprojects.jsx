@@ -9,7 +9,7 @@ import { IoMdPlanet } from "react-icons/io";
 
 export function Myprojects() {
   return (
-    <MyProjectsContainer>
+    <MyProjectsContainer id="projects">
       <TitleSection>
         <IoMdPlanet size={60} />
         <h2>My projects</h2>
