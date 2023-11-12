@@ -28,11 +28,17 @@ export function Myprojects() {
           <TitleProject>My finances</TitleProject>
         </ProjectContainer>
         <ProjectContainer>
-          <ImgProjectContainer src={astronaut} />
+          <ImgProjectContainer
+            src={astronaut}
+            alt="Projeto em desenvolvimento"
+          />
           <TitleProject>Em desenvolvimento</TitleProject>
         </ProjectContainer>
         <ProjectContainer>
-          <ImgProjectContainer src={astronaut} />
+          <ImgProjectContainer
+            src={astronaut}
+            alt="Projeto em desenvolvimento"
+          />
           <TitleProject>Em desenvolvimento</TitleProject>
         </ProjectContainer>
       </ProjectsContainer>
