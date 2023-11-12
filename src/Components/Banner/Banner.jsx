@@ -1,6 +1,5 @@
 import { Topmenu } from "../Topmenu/Topmenu";
-import illustrationTop from "../../assets/IllustrationTopBanner.svg";
-import illustrationBottom from "../../assets/IllustrationBottomBanner.svg";
+
 import {
   SectionBanner,
   BannerTop,
@@ -17,11 +16,14 @@ export function Banner() {
     <>
       <SectionBanner>
         <BannerTop>
-          <IllustrationLeft src={illustrationTop} alt="Ilustração de planeta" />
+          <IllustrationLeft
+            src="/assets/IllustrationTopBanner.png"
+            alt="Ilustração de planeta"
+          />
           <Topmenu />
         </BannerTop>
         <IllustrationRight
-          src={illustrationBottom}
+          src="/assets/IllustrationBottomBanner.png"
           alt="Ilustração de planeta com luas"
         />
         <CallToAction>
