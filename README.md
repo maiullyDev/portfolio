@@ -1,6 +1,5 @@
-# Meu portfolio
+# Meu Site Pessoal | ReactJS
 
-<hr>
 ✅ Projeto concluído
 
 <p>
