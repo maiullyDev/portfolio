@@ -15,6 +15,10 @@ Site pessoal contendo o meu portfolio
 
 ![Captura de tela do banner do site](./public/assets/printPortfolio.png)
 
+Para desenvolver o design do site, eu utilizei um design desenvolvido por Sourasith (https://tinyurl.com/4t8sw9s8) e publicado na comunidade do Figma. A partir desse design, eu fiz alterações e desenvolvi o design do meu site pessoal (https://tinyurl.com/3nvzphks).
+
+![Gif apresentando o design do site](./public/assets/figma-gif.gif)
+
 ## Tecnologias utilizadas na construção do projeto
 
 📍 HTML  
