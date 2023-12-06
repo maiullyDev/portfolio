@@ -95,7 +95,7 @@ export function Contact() {
           </LeftBlockText>
           <SocialMedia>
             <Linkedin
-              href="https://www.linkedin.com/in/maiully-desenvolvedorweb/"
+              href="https://www.linkedin.com/in/maiully-desenvolvimentoweb/"
               target="_blank"
             >
               <BsLinkedin color="#fff" size={18} />

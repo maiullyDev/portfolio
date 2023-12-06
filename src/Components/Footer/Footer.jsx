@@ -62,7 +62,7 @@ export function Footer() {
       </FooterMenu>
       <SocialMedia>
         <a
-          href="https://www.linkedin.com/in/maiully-desenvolvedorweb/"
+          href="https://www.linkedin.com/in/maiully-desenvolvimentoweb/"
           target="_blank"
         >
           <Icon>
