@@ -31,7 +31,7 @@ export function Banner() {
             Olá! Eu me chamo Maiully, mas também sou conhecida por Mai!
           </PresentationText>
           <a
-            href="https://drive.google.com/file/d/1__1WJoFQb-Z2OXTfsYxMMA7Ad-ihli9r/view?usp=sharing"
+            href="https://drive.google.com/file/d/1xs0kO2wLs0WtN0ECizbRiTGiVXRL8AQ2/view?usp=sharing"
             target="_blank"
           >
             <ButtonCurriculum>Baixar Currículo</ButtonCurriculum>
