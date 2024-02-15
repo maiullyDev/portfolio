@@ -34,10 +34,10 @@ export function Aboutme() {
           <TextParagraph>
             Gosto muito de aprender e estou sempre fazendo novos cursos! Tenho
             uma formação em <ContrastText>Sistemas para Internet</ContrastText>.
-            E sigo investindo em minha{" "}
-            <ContrastText>profissão como Full Stack Designer</ContrastText>,
-            tenho investido em <ContrastText>projetos pessoais</ContrastText> e
-            em estudar <ContrastText>inglês</ContrastText>.
+            Sigo investindo em minha profissão como{" "}
+            <ContrastText>Full Stack Designer</ContrastText>, além disso, tenho
+            investido em <ContrastText>projetos pessoais</ContrastText> e em
+            estudar <ContrastText>inglês</ContrastText>.
           </TextParagraph>
           <TextParagraph>
             Costumo ser uma pessoa colaborativa, que tem prazer em ajudar e ser
