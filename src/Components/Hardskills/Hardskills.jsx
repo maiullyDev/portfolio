@@ -81,10 +81,10 @@ export function Hardskills() {
         </SkillBlockContent>
       </Skills>
       <LinkToStudyNotebook
-        href="https://crystal-haumea-eb9.notion.site/Full-stack-4b034e95b05346a7a9a1bb569deef26a?pvs=4"
+        href="https://medium.com/@maiullybm7/pethosting-desvendando-op%C3%A7%C3%B5es-de-hospedagem-para-roedores-e-coelhos-5f642659ba09"
         target="_blank"
       >
-        Tenha acesso ao meu caderno de estudos clicando aqui
+        Clique aqui para acessar um dos meus projetos de UX e Product Design
       </LinkToStudyNotebook>
     </SectionContainer>
   );
