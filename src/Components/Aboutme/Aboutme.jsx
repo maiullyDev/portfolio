@@ -32,18 +32,17 @@ export function Aboutme() {
             irão encerrar a minha trajetória.
           </TextParagraph>
           <TextParagraph>
-            Gosto muito de aprender e estou sempre fazendo novos cursos!
-            Atualmente tenho investido na{" "}
-            <ContrastText>formação Full-stack</ContrastText> por meio dos cursos
-            da Alura e estou{" "}
-            <ContrastText>estudando Sistemas para Internet</ContrastText>. Além
-            disso, fiz uma formação em{" "}
-            <ContrastText>UX, UI e Product Design</ContrastText>, tenho
-            investido em <ContrastText>projetos pessoais</ContrastText> e em
-            estudar <ContrastText>inglês</ContrastText>. Costumo ser uma pessoa
-            colaborativa, que tem prazer em ajudar e ser útil. Sou muito
-            detalhista e procuro entregar o melhor de mim (como pessoa e como
-            profissional).
+            Gosto muito de aprender e estou sempre fazendo novos cursos! Tenho
+            uma formação em <ContrastText>Sistemas para Internet</ContrastText>.
+            E sigo investindo em minha{" "}
+            <ContrastText>profissão como Full Stack Designer</ContrastText>,
+            tenho investido em <ContrastText>projetos pessoais</ContrastText> e
+            em estudar <ContrastText>inglês</ContrastText>.
+          </TextParagraph>
+          <TextParagraph>
+            Costumo ser uma pessoa colaborativa, que tem prazer em ajudar e ser
+            útil. Sou muito detalhista e procuro entregar o melhor de mim (como
+            pessoa e como profissional).
           </TextParagraph>
         </BodyOfText>
       </AboutMeContent>
