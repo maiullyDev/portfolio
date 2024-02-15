@@ -15,6 +15,11 @@ import { IoPersonCircleOutline } from "react-icons/io5";
 import { TbBrandReactNative, TbBrandSass, TbBrandFigma } from "react-icons/tb";
 import { SiStyledcomponents, SiGimp, SiInkscape } from "react-icons/si";
 import { BsGit, BsGithub } from "react-icons/bs";
+import { SiAdobephotoshop } from "react-icons/si";
+import { SiAdobeillustrator } from "react-icons/si";
+import { FaWordpress } from "react-icons/fa";
+import { DiScrum } from "react-icons/di";
+import { BsKanbanFill } from "react-icons/bs";
 
 import illustrationMyVersion from "../../assets/IllustrationMyVersion.svg";
 
@@ -30,6 +35,22 @@ export function Hardskills() {
           />
           <SkillsContainer>
             <Skill>
+              <SiInkscape color="#fff" size={13} />
+              <p>Inkscape</p>
+            </Skill>
+            <Skill>
+              <SiGimp color="#fff" size={16} />
+              <p>Gimp</p>
+            </Skill>
+            <Skill>
+              <SiAdobephotoshop color="#fff" size={16} />
+              <p>Photoshop</p>
+            </Skill>
+            <Skill>
+              <SiAdobeillustrator color="#fff" size={16} />
+              <p>Illustrator</p>
+            </Skill>
+            <Skill>
               <FaHtml5 color="#fff" size={15} />
               <p>HTML</p>
             </Skill>
@@ -43,7 +64,31 @@ export function Hardskills() {
             </Skill>
             <Skill>
               <TbBrandReactNative color="#fff" size={15} />
-              <p>React</p>
+              <p>React JS</p>
+            </Skill>
+            <Skill>
+              <SiStyledcomponents color="#fff" size={24} />
+              <p>Styled Components</p>
+            </Skill>
+            <Skill>
+              <TbBrandSass color="#fff" size={16} />
+              <p>Sass</p>
+            </Skill>
+            <Skill>
+              <IoPersonCircleOutline color="#fff" size={16} />
+              <p>UI / UX</p>
+            </Skill>
+            <Skill>
+              <IoPersonCircleOutline color="#fff" size={16} />
+              <p>Product Design</p>
+            </Skill>
+            <Skill>
+              <TbBrandFigma color="#fff" size={15} />
+              <p>Figma</p>
+            </Skill>
+            <Skill>
+              <FaWordpress color="#fff" size={15} />
+              <p>WordPress</p>
             </Skill>
             <Skill>
               <BsGit color="#fff" size={14} />
@@ -54,28 +99,12 @@ export function Hardskills() {
               <p>GitHub</p>
             </Skill>
             <Skill>
-              <IoPersonCircleOutline color="#fff" size={16} />
-              <p>UI / UX</p>
+              <DiScrum color="#fff" size={14} />
+              <p>Scrum</p>
             </Skill>
             <Skill>
-              <TbBrandFigma color="#fff" size={15} />
-              <p>Figma</p>
-            </Skill>
-            <Skill>
-              <TbBrandSass color="#fff" size={16} />
-              <p>Sass</p>
-            </Skill>
-            <Skill>
-              <SiStyledcomponents color="#fff" size={24} />
-              <p>Styled Components</p>
-            </Skill>
-            <Skill>
-              <SiGimp color="#fff" size={16} />
-              <p>Gimp</p>
-            </Skill>
-            <Skill>
-              <SiInkscape color="#fff" size={13} />
-              <p>Inkscape</p>
+              <BsKanbanFill color="#fff" size={14} />
+              <p>Kanban</p>
             </Skill>
           </SkillsContainer>
         </SkillBlockContent>
